@@ -1,12 +1,14 @@
 Package: rath
 Title: Andrew Heiss's R code
-Version: 0.1
-Date: 2014-05-08
+Version: 0.2
+Date: 2014-10-09
 Author: Andrew Heiss <andrew@andrewheiss.com>
 Maintainer: Andrew Heiss <andrew@andrewheiss.com>
 Description: Miscellaneous R functions
 Depends:
     R (>= 3.1.0)
-License: MIT License
+Imports:
+    ggplot2,
+    grid
 License: MIT + file LICENSE
 LazyData: true
