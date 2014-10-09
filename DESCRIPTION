@@ -8,4 +8,5 @@ Description: Miscellaneous R functions
 Depends:
     R (>= 3.1.0)
 License: MIT License
+License: MIT + file LICENSE
 LazyData: true
