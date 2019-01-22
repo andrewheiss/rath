@@ -1,10 +1,10 @@
 Package: rath
-Title: Andrew Heiss's R code
-Version: 0.2
-Date: 2014-10-09
+Title: Andrew Heiss's custom R code
+Version: 0.3
+Date: 2019-01-22
 Author: Andrew Heiss <andrew@andrewheiss.com>
 Maintainer: Andrew Heiss <andrew@andrewheiss.com>
-Description: Miscellaneous R functions
+Description: Provides a library of miscellaneous R functions.
 Depends:
     R (>= 3.1.0)
 Imports:
@@ -12,3 +12,5 @@ Imports:
     grid
 License: MIT + file LICENSE
 LazyData: true
+Encoding: UTF-8
+RoxygenNote: 6.1.1
