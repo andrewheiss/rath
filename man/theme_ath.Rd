@@ -4,8 +4,12 @@
 \alias{theme_ath}
 \title{My custom ggplot theme}
 \usage{
-theme_ath(base_size = 12, base_family = "", legend_bottom = FALSE,
-  margin_bottom = -0.5)
+theme_ath(
+  base_size = 12,
+  base_family = "",
+  legend_bottom = FALSE,
+  margin_bottom = -0.5
+)
 }
 \arguments{
 \item{base_size}{base font size (defaults to 12)}

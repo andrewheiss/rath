@@ -2,6 +2,10 @@
 
 export(color_preview)
 export(ggpreview)
+export(in_to_picas)
+export(picas_to_in)
+export(picas_to_pts)
+export(pts_to_picas)
 export(theme_ath)
 export(theme_geektool)
 import(ggplot2)

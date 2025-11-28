@@ -1,16 +1,23 @@
 Package: rath
 Title: Andrew Heiss's custom R code
-Version: 0.3
-Date: 2019-01-22
-Author: Andrew Heiss <andrew@andrewheiss.com>
-Maintainer: Andrew Heiss <andrew@andrewheiss.com>
+Version: 0.4
+Date: 2025-11-28
+Authors@R: c(
+    person(
+      given = "Andrew", 
+      family = "Heiss",
+      email = "andrew@andrewheiss.com",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0002-3948-3914")
+    )
+  )
 Description: Provides a library of miscellaneous R functions.
 Depends:
-    R (>= 3.1.0)
+    R (>= 4.1.0)
 Imports:
     ggplot2,
     grid
 License: MIT + file LICENSE
 LazyData: true
 Encoding: UTF-8
-RoxygenNote: 6.1.1
+RoxygenNote: 7.3.3.9000
